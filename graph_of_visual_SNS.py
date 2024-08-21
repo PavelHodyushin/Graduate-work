@@ -31,5 +31,5 @@ plt.show()
 # Создание гистограммы
 plt.figure(figsize=(14, 8))
 sb = sns.barplot(x="year", y="rural", data=df, color='blue')
-sb.set_title("Гистограмма численности сельского насения")
+sb.set_title("Гистограмма численности сельского населения")
 plt.show()

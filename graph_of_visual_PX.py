@@ -42,7 +42,7 @@ fig.show()
 vals = [df['urban'].sum(), df['rural'].sum()]
 labels = ['Городское', 'Сельское']
 
-fig = px.pie(df,  values=vals,
+fig = px.pie(df,  values=vals, names=labels,
                   title="Круговая диаграмма сравнения численности городского и сельского населения")
 fig.update_layout(title={'font': dict(size=15), 'x': 0.5})
 fig.show()
